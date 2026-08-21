@@ -1,59 +1,25 @@
-# Juaracoding Registration System – Manual Testing
+## Repository Structure
 
-## Project Overview
+This repository contains the following testing artifacts:
 
-This project demonstrates my manual Software Quality Assurance testing activities for a registration system.
+### Test Documentation
+Contains the test cases used for System Integration Testing (SIT), including test scenarios, test steps, expected results, actual results, and test status.
 
-The testing covered the main user journey, including registration, account activation, login, and forgot password functionality.
+### Test Evidence
+Contains selected screenshots as evidence of test case execution. Each screenshot is referenced using its Test Case ID for traceability.
 
-## My Role
+### Bug Reports
+Contains screenshots and supporting evidence of defects identified during the testing process.
 
-**Software Quality Assurance – Manual Testing**
+## Testing Summary
 
-## Testing Scope
-
-The following modules were tested:
-
-- Register
-- Account Activation
-- Login
-- Forgot Password
-
-## Testing Types
-
-- Functional Testing
-- Positive Testing
-- Negative Testing
-- Input Validation Testing
-- Basic Security Input Validation
-
-## Test Coverage
-
-| Module | Test Coverage |
-|---|---|
-| Register | Form validation, email validation, password validation, and registration flow |
-| Account Activation | Valid, invalid, expired, and previously used activation links |
-| Login | Valid login, invalid credentials, inactive account validation, SQL injection and XSS input validation |
-| Forgot Password | Email validation, valid and invalid account scenarios |
-
-## Test Documentation
-
-The complete test case documentation is available in the `Test-Documentation` folder.
-
-## Evidence
-
-Testing evidence and application screenshots are organized by module in the following folders:
-
-- Application-Screenshots
-- Test-Evidence/Register
-- Test-Evidence/Activate
-- Test-Evidence/Login
-- Test-Evidence/Forgot-Password
-
-## Tools Used
-
-- Google Sheets
-- Manual Testing
-- GitHub
-- Google Chrome
-- Browser Developer Tools
+- Testing Type: System Integration Testing (SIT)
+- Testing Method: Manual Testing
+- Modules Tested:
+  - Register
+  - Account Activation
+  - Login
+  - Forgot Password
+- Test Coverage: 37 Test Cases
+- Positive Test Cases: 6
+- Negative Test Cases: 31
