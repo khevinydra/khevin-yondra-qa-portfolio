@@ -68,7 +68,7 @@ Contains screenshots and supporting evidence of defects identified during the te
 
 ## Repository Structure
 
-
+```text
 02-System-Event-Voucher-UMKM-Fest-Jakarta-2026/
 ├── Bug-Reports/
 ├── Test-Documentation/
