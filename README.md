@@ -2,9 +2,9 @@
 
 Hi, I'm Khevin Yondra.
 
-I am a Junior Software Quality Assurance enthusiast with hands-on experience in manual testing, System Integration Testing (SIT), test case execution, bug reporting, bug fix retesting, regression testing, and User Acceptance Testing (UAT).
+I am a Junior Software Quality Assurance enthusiast with hands-on experience in manual testing, System Integration Testing (SIT), test case execution, bug reporting, bug fix retesting, regression testing, feature enhancement testing, and User Acceptance Testing (UAT).
 
-This repository contains selected QA testing projects and documentation demonstrating my experience in validating system functionality, business rules, feature enhancements, end-to-end workflows, and bug fixes.
+This repository contains selected QA testing projects and documentation demonstrating my experience in validating system functionality, business rules, end-to-end workflows, feature enhancements, transactions, voucher processes, and bug fixes.
 
 ---
 
@@ -13,7 +13,7 @@ This repository contains selected QA testing projects and documentation demonstr
 ### 01. Juaracoding Registration System
 **Focus:** Manual Testing and SQL Injection Test Scenarios
 
-Testing focused on validating system functionality, positive and negative scenarios, input handling, and selected SQL Injection test cases.
+Testing focused on validating system functionality, positive and negative scenarios, input handling, and selected SQL Injection test scenarios.
 
 ### 02. System Event Voucher – UMKM Fest Jakarta 2026
 **Focus:** SIT, Business Rule Validation, and Transaction Validation
@@ -35,6 +35,13 @@ Testing focused on retesting previously fixed issues, validating implemented fix
 
 Testing focused on validating newly added Master menu functionality, Zip Code data management, duplicate data validation, and related functionality within the HRD module.
 
+### 06. System Event Voucher – Taman Brightspot 2026
+**Focus:** SIT, End-to-End Voucher Workflow, Transaction Validation, and Defect Reporting
+
+Testing covered multiple modules and validated the end-to-end voucher workflow, including Login, Dashboard, Register Foto, Register OCR, Data Transaksi, Transfer Voucher, Klaim Voucher, Cek RRN, Cek Voucher, Upload Voucher, Kouta Management, Input User, Input Merchant, Export Report, and Logout.
+
+The project includes 101 documented test cases, selected test execution evidence, and bug reports identified during System Integration Testing.
+
 ---
 
 ## Testing Skills
@@ -51,6 +58,7 @@ Testing focused on validating newly added Master menu functionality, Zip Code da
 - Business Rule Validation
 - Transaction Validation
 - Feature Enhancement Testing
+- New Feature Validation
 - Input Validation
 - Duplicate Data Validation
 - SQL Injection Test Scenarios
