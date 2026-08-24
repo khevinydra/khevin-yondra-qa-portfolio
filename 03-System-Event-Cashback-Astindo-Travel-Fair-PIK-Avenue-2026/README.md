@@ -78,7 +78,7 @@ Contains screenshots and supporting evidence of defects identified during the te
 
 ## Repository Structure
 
-
+```text
 03-System-Event-Cashback-Astindo-Travel-Fair-PIK-Avenue-2026/
 ├── Bug-Reports/
 ├── Test-Documentation/
