@@ -2,9 +2,9 @@
 
 Hi, I'm Khevin Yondra.
 
-I am a Junior Software Quality Assurance enthusiast with experience in manual testing, test case creation, bug reporting, bug fix retesting, SIT, regression testing, and UAT.
+I am a Junior Software Quality Assurance enthusiast with hands-on experience in manual testing, System Integration Testing (SIT), test case execution, bug reporting, bug fix retesting, regression testing, and User Acceptance Testing (UAT).
 
-This repository contains examples of my QA testing projects and documentation.
+This repository contains selected QA testing projects and documentation demonstrating my experience in validating system functionality, business rules, feature enhancements, end-to-end workflows, and bug fixes.
 
 ---
 
@@ -13,7 +13,7 @@ This repository contains examples of my QA testing projects and documentation.
 ### 01. Juaracoding Registration System
 **Focus:** Manual Testing and SQL Injection Test Scenarios
 
-Testing focused on validating system functionality, negative scenarios, input handling, and selected SQL Injection test cases.
+Testing focused on validating system functionality, positive and negative scenarios, input handling, and selected SQL Injection test cases.
 
 ### 02. System Event Voucher – UMKM Fest Jakarta 2026
 **Focus:** SIT, Business Rule Validation, and Transaction Validation
@@ -23,12 +23,17 @@ Testing focused on validating business rules, voucher transactions, duplicate va
 ### 03. System Event Cashback – Astindo Travel Fair PIK Avenue 2026
 **Focus:** SIT and End-to-End Cashback Workflow Testing
 
-Testing covered multiple modules and validated the end-to-end cashback workflow, from registration through verification, transaction-related processes, and reporting.
+Testing covered multiple modules and validated the end-to-end cashback workflow across registration, verification, transaction-related processes, and reporting.
 
 ### 04. SIT Lamar System Testing
 **Focus:** Bug Fix Retesting, Fix Validation, and Regression Testing
 
-Testing focused on validating implemented fixes, retesting resolved issues, and ensuring affected functionality worked correctly after bug fixes.
+Testing focused on retesting previously fixed issues, validating implemented fixes, and ensuring affected functionality continued to work according to expected results.
+
+### 05. DIKAONE HRD Master Zip Code Enhancement
+**Focus:** Feature Enhancement Testing and New Menu Validation
+
+Testing focused on validating newly added Master menu functionality, Zip Code data management, duplicate data validation, and related functionality within the HRD module.
 
 ---
 
@@ -38,20 +43,25 @@ Testing focused on validating implemented fixes, retesting resolved issues, and 
 - System Integration Testing (SIT)
 - Functional Testing
 - Positive & Negative Testing
-- Test Case Design
+- End-to-End Testing
+- Test Case Design & Execution
 - Bug Reporting
 - Bug Fix Retesting
 - Regression Testing
 - Business Rule Validation
-- End-to-End Testing
+- Transaction Validation
+- Feature Enhancement Testing
 - Input Validation
+- Duplicate Data Validation
 - SQL Injection Test Scenarios
+- User Acceptance Testing (UAT)
 
 ## Testing Artifacts
 
-Each project may include:
+Depending on the project, the repository includes:
 
 - Test Documentation
+- Test Cases
 - Test Evidence
 - Bug Reports
 - Bug Fix Validation
@@ -68,4 +78,4 @@ Each project may include:
 
 ---
 
-Thank you for visiting my QA portfolio.
+Thank you for visiting my Software Quality Assurance Portfolio.
