@@ -2,9 +2,9 @@
 
 Hi, I'm Khevin Yondra.
 
-I am a Junior Software Quality Assurance enthusiast with hands-on experience in manual testing, System Integration Testing (SIT), test case execution, bug reporting, bug fix retesting, regression testing, feature enhancement testing, and User Acceptance Testing (UAT).
+I am a Junior Software Quality Assurance enthusiast with hands-on experience in manual testing, System Integration Testing (SIT), test case execution, bug reporting, bug fix retesting, regression testing, feature enhancement testing, end-to-end testing, and QA project briefing.
 
-This repository contains selected QA testing projects and documentation demonstrating my experience in validating system functionality, business rules, end-to-end workflows, feature enhancements, transactions, voucher processes, and bug fixes.
+This repository contains selected QA testing projects and documentation demonstrating my experience in validating system functionality, business rules, end-to-end workflows, feature enhancements, transactions, voucher processes, bug fixes, and QA knowledge sharing.
 
 ---
 
@@ -38,9 +38,16 @@ Testing focused on validating newly added Master menu functionality, Zip Code da
 ### 06. System Event Voucher – Taman Brightspot 2026
 **Focus:** SIT, End-to-End Voucher Workflow, Transaction Validation, and Defect Reporting
 
-Testing covered multiple modules and validated the end-to-end voucher workflow, including Login, Dashboard, Register Foto, Register OCR, Data Transaksi, Transfer Voucher, Klaim Voucher, Cek RRN, Cek Voucher, Upload Voucher, Kouta Management, Input User, Input Merchant, Export Report, and Logout.
+Testing covered multiple modules and validated the end-to-end voucher workflow, including registration, transaction processing, voucher management, voucher validation, voucher transfer, voucher claims, and reporting.
 
-The project includes 101 documented test cases, selected test execution evidence, and bug reports identified during System Integration Testing.
+The project includes a total of 101 documented test cases, selected test execution evidence, and bug reports identified during System Integration Testing.
+
+### 07. SQA Bootcamp Project Briefing & Technical Orientation
+**Focus:** QA Knowledge Sharing, Technical Communication, and Project Briefing
+
+Conducted QA project briefings and technical orientation sessions for SQA Bootcamp participants via Zoom.
+
+The sessions included explanations of application modules, key features, user flows, testing scope, project requirements, and step-by-step walkthroughs to help participants understand the assigned application before performing their final testing projects.
 
 ---
 
@@ -64,6 +71,15 @@ The project includes 101 documented test cases, selected test execution evidence
 - SQL Injection Test Scenarios
 - User Acceptance Testing (UAT)
 
+## Additional QA Skills
+
+- QA Project Briefing
+- QA Knowledge Sharing
+- Technical Communication
+- Application Walkthrough
+- Testing Scope Explanation
+- Functional Requirement Explanation
+
 ## Testing Artifacts
 
 Depending on the project, the repository includes:
@@ -73,6 +89,9 @@ Depending on the project, the repository includes:
 - Test Evidence
 - Bug Reports
 - Bug Fix Validation
+- Project Briefing Evidence
+
+## Tools
 
 ## Tools
 
@@ -83,6 +102,7 @@ Depending on the project, the repository includes:
 - GitHub
 - SQL
 - Playwright
+- Zoom
 
 ---
 
