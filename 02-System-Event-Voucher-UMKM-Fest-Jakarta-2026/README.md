@@ -4,15 +4,21 @@
 
 This project contains Software Quality Assurance (SQA) testing documentation for the System Event Voucher – UMKM Fest Jakarta 2026.
 
-The testing was performed to validate system functionality, user input validation, business rules, and selected security-related scenarios.
+The testing was performed to validate system functionality, user input validation, business rules, transaction processes, and security-related scenarios.
 
 ## My Role
 
-Software Quality Assurance – Manual Testing
+Software Quality Assurance (SQA) Intern – Manual Testing
+
+## Testing Information
+
+- Testing Type: System Integration Testing (SIT)
+- Testing Method: Manual Testing
+- Total Test Cases: 134
 
 ## Testing Scope
 
-The testing covered several modules, including:
+The testing covered multiple system modules, including:
 
 - Login
 - User Management
@@ -32,9 +38,7 @@ The testing covered several modules, including:
 
 ## Selected Test Coverage
 
-This project contains a total of **134 test cases**.
-
-Selected test evidence in this repository includes scenarios such as:
+Selected test evidence includes scenarios related to:
 
 - SQL Injection validation
 - XSS validation
@@ -52,15 +56,15 @@ Selected test evidence in this repository includes scenarios such as:
 
 ### Test Documentation
 
-Contains the test case documentation used during the testing process.
+Contains the complete test case documentation used during the System Integration Testing process.
 
 ### Test Evidence
 
-Contains selected screenshots as evidence of test case execution. The evidence is organized using the related Test Case ID for easier traceability.
+Contains selected screenshots as evidence of test case execution. The evidence is organized using Test Case IDs for easier traceability.
 
 ### Bug Reports
 
-Contains screenshots and supporting evidence of defects identified during testing.
+Contains screenshots and supporting evidence of defects identified during the testing process.
 
 ## Repository Structure
 
