@@ -109,20 +109,42 @@ test('TC-055 - FNC-002', async ({ page }) => {
   console.log('✓ Search kedua selesai');
 
   // ==========================================
-  // STEP 4 - VALIDASI HASIL SEARCH
-  // ==========================================
+// STEP 4 - VALIDASI HASIL SEARCH
+// ==========================================
 
-  console.log('');
-  console.log('STEP 4 - Validasi hasil pencarian');
+console.log('');
+console.log('STEP 4 - Validasi hasil pencarian');
 
-  const hasilSearch = page.getByRole('gridcell', {
-    name: nomorHandphone,
-    exact: true
-  });
+// Tunggu loading selesai
+await page.waitForLoadState('networkidle');
+await page.waitForTimeout(2000);
 
-  await expect(hasilSearch).toBeVisible({
-    timeout: 30000
-  });
+// Screenshot kondisi tabel (akan muncul di CI)
+await page.screenshot({
+  path: 'test-results/TC-055-debug-table.png',
+  fullPage: true
+});
+
+// Ambil seluruh isi tabel
+const tableBody = page.locator('table tbody');
+const isiTabel = await tableBody.innerText();
+
+console.log('================================');
+console.log('ISI TABEL SETELAH SEARCH');
+console.log('================================');
+console.log(isiTabel);
+console.log('================================');
+
+// Cari nomor HP
+const hasilSearch = page.getByRole('gridcell', {
+  name: nomorHandphone,
+  exact: true
+});
+
+// Validasi
+await expect(hasilSearch).toBeVisible({
+  timeout: 30000
+});
 
   // ==========================================
   // STEP 5 - VALIDASI NOMOR HANDPHONE
